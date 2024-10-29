@@ -1,0 +1,16 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "scripts": { 
+        "test": "./vendor/bin/phpunit" 
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.9"
+    }
+}
